@@ -1,0 +1,83 @@
+body{
+font-family: 'Bebas Neue', cursive;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
+}
+
+.one{
+color: orange;
+}
+h1{
+font-size: 50px;
+}
+span{
+color:blue ;
+}
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(tomato,orange);
+padding:7px 30px ;
+ color:white ;
+border-radius:30px ;
+}
+.first-section{
+display: flex;
+}
+.first-section img{
+width: 70%;
+} 
+
+.half-width{
+width:50% ;
+padding-left:30px ;
+}
+.second-section{
+display: flex;
+}
+.second-section img{
+width: 70%;
+}
+.orange-red{
+color: orangered;
+}
+.section{
+text-align: center;
+}
+.third-section{
+display: flex;
+}
+.third-section img{
+width: 100%;
+}
+.width{
+width: 100%;
+padding:10px 20px 30px   ;
+text-align: justify;
+box-shadow: 5px 10px 5px  gray ;
+margin-left:30px ;
+border-radius:20px ;
+border-left:  solid orange;
+margin-bottom:150px ;
+
+}
+.forth-section{
+display: flex;
+
+
+}
+.blue{
+background-color: blue;
+      color: white;
+      padding: 3% 30% 3%;
+      margin-left: 15%;
+      border-radius: 20px;
+      margin-bottom:80px ;
+}
+.stay{
+text-align: center;
+
+}
+
+
+
+

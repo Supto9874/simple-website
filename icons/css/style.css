@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #E5E5E5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+button{
+    padding: 15px 45px;
+    background-image: linear-gradient(45deg, #1A2980, #26D0CE);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-top:25px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 100%;
+    float: right;
+    margin: 30px 0px 0px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    float:right;
+}
+nav ul li{
+    padding-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3C3C3C;
+}
+
+/* About Section */
+
+.header .header-heading{
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+.header .header-heading .hello{
+    color: #363958;
+    font-size: 80px;
+    font-weight: 500;
+}
+.header .header-heading .name{
+    color: #FF8367;
+    font-size: 80px;
+    font-weight: 500;
+}
+.header .header-heading p{
+    font-size: 20px;
+    padding-right: 205px;
+    padding-bottom: 30px;
+    color: #3e3e3e;
+}
+
+.header .header-img{
+    width: 50%;
+    float: left;
+}
+.header .header-img img{
+    width: 500px;
+}
+
+/* About Section */
+
+.about .about-img{
+    width: 50%;
+    float: left;
+}
+.about .about-img img{
+    width: 500px;
+    margin-top:-60px;
+}
+.about .about-heading{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.about .about-heading h2{
+    color: #363958;
+    font-size: 50px;
+    font-weight: 500;
+}
+.about .about-heading p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #3e3e3e;
+    padding-top:30px;
+    padding-right: 40px;
+}
+
+.about .fa{
+    padding-right: 3px;
+}
+
+
+/* Work Section Start */
+
+.work .heading{
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0px 50px;
+}
+.work .heading h1 span{
+    color: #F46060;
+}
+.work .portfolio{
+    width:100%;
+    float:left;
+}
+.work .portfolio .card {
+    height: 330px;
+    width: 26%;
+    float: left;
+    margin: 19px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.5s linear;
+}
+.work .portfolio .card img{
+    width: 100%;
+}
+.work .portfolio .card h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #363958;
+}
+.work .portfolio .card p{
+    color: #6C6C6C;
+}
+.work .portfolio .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+/* Inquiry Section Start */
+
+
+.Inquiry .Work-Inquiry{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: url(../img/Rectangle\ 20.png) no-repeat;
+    background-position: center;
+}
+.Inquiry .Work-Inquiry .content{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.Inquiry .Work-Inquiry h1{
+    color: white;
+    font-size: 40px;
+    float: left;
+    padding: 88px 35px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.Inquiry .Work-Inquiry button{
+    float: right;
+    padding: 15px 45px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 88px 67px;
+    cursor: pointer;
+}
+/* Inquiry Section End */
+ .connect{
+    width: 100%;
+    float: left;
+    margin: 0px 0px 70px 0px;
+ }
+ .connect .content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+ }
+ .connect .content h2{
+    font-family: sans-serif;
+    color: #363958;
+    font-size: 28px;
+    
+ }
+ .connect .content h3{
+    
+    color: grey;
+ }
+ .connect .img-content{
+    text-align: center;
+ }
+ .connect .img-content img{
+    width: 40px;
+    margin: 25px 10px;
+ }
+
+ /* contact Section Start */
+
+.contact{
+    width: 100%;
+    float: left;
+}
+.contact .form{
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
+.contact .form-content{
+    padding: 40px;
+    text-align: center;
+}
+.form-control{
+    width: 68%;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* Contact Section End */
+
+/* Footer Section Start */
+
+.footer{
+    width: 100%;
+    float: left;
+    background: #202b30;
+    padding: 20px 0;
+    color:white;
+    text-align: center;
+}
+
+/* Footer Section End */
+
+
+
+
+
