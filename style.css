@@ -2,16 +2,24 @@ body{
 font-family: 'Bebas Neue', cursive;
       font-family: 'Poppins', sans-serif;
       font-family: 'Roboto', sans-serif;
-}
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 50px;
+      margin-bottom: 0;
 
+}
+p{
+      font-size: small;
+
+}
 .one{
-color: orange;
+color: orangered;
 }
 h1{
 font-size: 50px;
 }
 span{
-color:blue ;
+color:navy ;
 }
 .link-button{
 text-decoration: none;
@@ -50,7 +58,6 @@ display: flex;
 width: 100%;
 }
 .width{
-width: 100%;
 padding:10px 20px 30px   ;
 text-align: justify;
 box-shadow: 5px 10px 5px  gray ;
@@ -66,7 +73,7 @@ display: flex;
 
 }
 .blue{
-background-color: blue;
+background-color: navy;
       color: white;
       padding: 3% 30% 3%;
       margin-left: 15%;
@@ -77,7 +84,23 @@ background-color: blue;
 text-align: center;
 
 }
+.social-media{
+      display: flex;
+      padding-left:43% ;
+      margin-bottom: 60px;
+}
+.social-media img{
+      width: 5%;
+      padding-left: 3%;
+}
 
 
-
+footer{
+      background-color:  black;
+      text-align: center;
+      border: 1px solid black;
+      padding: 20px     5px;
+      font-size: smaller;
+      color: white;
+}
 
